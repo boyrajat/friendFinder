@@ -1,0 +1,28 @@
+{
+  "name": "friendfinder",
+  "version": "1.0.0",
+  "description": "Find a compatible friend",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "will be on Heroku"
+  },
+  "keywords": [
+    "friend",
+    "finder",
+    "match",
+    "date"
+  ],
+  "author": "Raj Narula",
+  "license": "MIT",
+  "dependencies": {
+    "autoloader": "^2.1.0",
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "path": "^0.12.7"
+  }
+}
